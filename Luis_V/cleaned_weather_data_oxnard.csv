@@ -1,4 +1,4 @@
-date,city,max_wind_spd,precip,max_temp,min_temp
+date, city, max_wind_spd, precip, max_temp, min_temp
 2024-07-01,Oxnard,6.3,0.0,21.0,14.4
 2024-07-02,Oxnard,5.7,0.0,21.1,14.7
 2024-07-03,Oxnard,6.0,0.0,21.0,15.0
