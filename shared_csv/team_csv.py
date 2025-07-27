@@ -6,7 +6,9 @@ csv_files = {
     "Brett": "../Brett_C/cleaned_weather_data_atlanta.csv",
     "Mark": "../Mark_H/renamed_params_bronx.csv",
     "Luis": "../Luis_V/cleaned_weather_data_oxnard.csv",
-    "Sarina": "../Sarina_P/fixed_clearwater_data.csv"
+    "Sarina": "../Sarina_P/fixed_clearwater_data.csv",
+    'Merhanda': "../Merhanda_P/final_cleaned_weather_data_queens.csv"
+   
 }
 
 # 🧪 Step 1: Print column headers for all files
