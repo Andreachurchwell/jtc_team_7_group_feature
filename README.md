@@ -1,10 +1,7 @@
-# jtc_team_7_group_feature
-Team Feature Integration For Tech Pathways Capstone Project
+# 🌤️ Weather You Like It or Not – Team 7  
+**Tech Pathways Capstone | TPS 2025**
 
-# 🌦️ Group 7 – TPS 2025 Team Feature Project
-
-Welcome to our Group 7 Capstone Collaboration!  
-This repository holds our **team feature** contributions for the TPS 2025 program.
+Welcome to the official Team 7 repo! This is where we collaborate to build our shared capstone feature — integrating weather data from each of our hometowns into a single cohesive experience.
 
 ---
 
@@ -19,29 +16,55 @@ This repository holds our **team feature** contributions for the TPS 2025 progra
 
 ---
 
-## 📁 Repo Structure
+## 🗂️ Repo Structure
 
-Each folder contains a team member’s individual contribution or dataset
-
-
-Each team member will work in their personal folder. Later, we’ll combine the work into a shared team feature.
-
----
-
-## 🔧 Goal
-
-To collaboratively build a shared feature that integrates data or visual elements from each member’s weather project — and showcase the power of teamwork!
+- Each team member has a personal folder containing their individual dataset or contribution.
+- The final merged and cleaned dataset lives in the `shared_csv/` folder as:
+  - `team_weather_data.csv` ✅
 
 ---
 
-## 🧠 How We'll Use This Repo
+## 📊 Project Flow
 
-- Each person adds their code or data in their folder
-- We’ll all contribute to a shared final feature (coming soon!)
-- Git keeps track of everyone's updates so we can collaborate smoothly
+1. Each member cleaned and pushed historical weather data from their city into their folder.
+2. A master script (`team_csv.py`) combines all files into a single, uniform CSV.
+3. All temps were converted to **Celsius**, and columns were standardized for consistency.
+4. The merged data will be used to generate charts, dashboards, or other shared visual features in each of our personal projects.
 
 ---
 
-## 🚀 Let’s Go Team 7!
+## 🎯 Team Feature Overview
 
-We're ready to build something awesome — together. 💪
+For our team feature, each of us is using historical weather data from our hometowns, covering a full year. Even though we all live in different parts of the U.S., we agreed to use the same core parameters in our data:
+
+- `date`  
+- `city`  
+- `min_temp`  
+- `max_temp`  
+- `precip`  
+- `max_wind_spd`  
+
+We’re using this shared structure so we can each create visuals using Matplotlib — however we want.
+
+The goal is to let everyone explore their city’s weather trends in their own way, but still tie it all together through the same dataset and parameters. It’s one shared idea, just interpreted differently by each teammate.
+
+For example, some of us are exploring interactive charts, trend lines, or comparing temps across cities on certain holidays — it’s flexible as long as it’s built from the same data.
+
+---
+
+## 🔧 Notes
+
+- Everyone’s **original data is untouched** and still located in their respective folders.
+- Luis and Sarina’s files required extra cleanup due to formatting issues (extra commas, mismatched parameters), but everything is now uniform.
+- Once Merhanda’s file is submitted, it will be merged with the rest, and the updated version will be shared here.
+
+---
+
+## 🌈 Team Identity
+
+We are:  
+### **Weather You Like It or Not**  
+_(Logo coming soon!)_
+
+Let’s keep pushing and finish strong, y’all! 💪
+
